@@ -1,0 +1,7 @@
+name: Rancher Test
+description: "Test App"
+version: "v0.0.1-test"
+category: Toy Apps
+maintainer: Hallgrimur Finnbogason <halli@halli.org>
+license: MIT
+projectURl: "https://github.com/hallzi/rancher-test"

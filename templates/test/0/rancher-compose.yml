@@ -1,3 +1,8 @@
 .catalog:
  name: "Initial Version"
  version: "v0.0.1"
+ questions:    
+    - variable: rap.host
+      label: "Hostname for Wordpress"
+      default: ""
+      type: string

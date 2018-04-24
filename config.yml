@@ -1,7 +1,7 @@
 name: Test app
 description: >
  A Test app for Rancher
-version 0.0.1-rancher1
+version: 0.0.1-rancher1
 category: Toy Apps
 maintainer: Hallgrimur Finnbogason <halli@halli.org|hallzi@gmail.com>
 license: Apache2

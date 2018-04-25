@@ -24,8 +24,6 @@ services:
        HOSTNAME: wordpress.org
      labels:
        rap.host: ${HOSTNAME}
-       rap.port: "80,443"
-       rap.cert_name: ${HOSTNAME}
+       rap.port: 80
        rap.le_host: ${HOSTNAME}
-       rap.le_email: halli@halli.org
 

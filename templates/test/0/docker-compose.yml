@@ -11,14 +11,14 @@ services:
        MYSQL_DATABASE: wordpress
        MYSQL_USER: wordpress
        MYSQL_PASSWORD: wordpress
+       rap.port: 8000
 
    wordpress:
      depends_on:
        - db
      image: wordpress:latest
      ports:
-       - "80:80"
-       - "443:443"
+       - "8000:80"
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306

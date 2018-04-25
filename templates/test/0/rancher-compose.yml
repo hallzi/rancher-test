@@ -2,7 +2,7 @@
  name: "Initial Version"
  version: "v0.0.1"
  questions:    
-    - variable: rap.host
+    - variable: HOSTNAME
       label: "Hostname for Wordpress"
       default: ""
       type: string

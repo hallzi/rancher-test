@@ -22,6 +22,10 @@ services:
        WORDPRESS_DB_USER: wordpress
        WORDPRESS_DB_PASSWORD: wordpress
        HOSTNAME: wordpress.org
-     labels:
-       rap.host: ${HOSTNAME}
-       rap.port: 80
+  wordpress-lb:
+    image: rancher/lb-service-haproxy:v0.9.1
+    labels:
+      io.rancher.container.agent.role: environmentAdmin
+      io.rancher.container.create_agent: 'true'
+      rap.host: ${HOSTNAME}
+      rap.port: 80

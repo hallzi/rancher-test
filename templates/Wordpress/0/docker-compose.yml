@@ -25,5 +25,3 @@ services:
      labels:
        rap.host: ${HOSTNAME}
        rap.port: 80
-       rap.le_host: ${HOSTNAME}
-

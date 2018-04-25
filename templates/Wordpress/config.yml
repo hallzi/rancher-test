@@ -1,7 +1,7 @@
-name: Rancher Test
-description: "Test App"
+name: Wordpress for Hosting
+description: "Hosting stack for Wordpress hosting"
 version: "v0.0.1-test"
-category: Toy Apps
+category: CMS
 maintainer: Hallgrimur Finnbogason <halli@halli.org>
 license: MIT
 projectURl: "https://github.com/hallzi/rancher-test"
